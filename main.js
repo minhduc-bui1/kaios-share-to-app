@@ -1,8 +1,7 @@
 "use strict";
 
 const shareBtn = document.getElementById("share-btn");
-const userText = document.querySelector("body").textContent;
-msg.innerText = userText
+let userText = document.querySelector("body").innerText;
 
 shareBtn.onclick = () => {
     var sharing = new MozActivity({
