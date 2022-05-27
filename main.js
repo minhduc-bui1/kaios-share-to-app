@@ -8,8 +8,7 @@ shareBtn.onclick = () => {
         name: "share",
         data: {
             type: "text/*",
-            number: 1,
-            body: [userText],
+            text: [userText],
         },
     });
     // if image successfully shared
@@ -18,6 +17,6 @@ shareBtn.onclick = () => {
     };
     // if error in sharing image
     sharing.onerror = function () {
-        msg.innerText = userText + "SHARING \n" + this.error;
+        msg.innerText = + "SHARING \n" + this.error;
     };
 };
