@@ -18,6 +18,6 @@ shareBtn.onclick = () => {
     };
     // if error in sharing image
     sharing.onerror = function () {
-        msg.innerText = "SHARING \n" + this.error;
+        msg.innerText = userText + "SHARING \n" + this.error;
     };
 };
