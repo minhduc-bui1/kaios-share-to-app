@@ -2,6 +2,7 @@
 
 const shareBtn = document.getElementById("share-btn");
 const userText = document.querySelector("body").textContent;
+msg.innerText = userText
 
 shareBtn.onclick = () => {
     var sharing = new MozActivity({
