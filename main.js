@@ -7,7 +7,7 @@ shareBtn.onclick = () => {
     var sharing = new MozActivity({
         name: "share",
         data: {
-            type: "text/*",
+            type: "text/plain",
             blobs: [userText],
         },
     });
